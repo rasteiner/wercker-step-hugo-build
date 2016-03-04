@@ -188,5 +188,5 @@ fi
 
 eval ${HUGO_COMMAND} --source="${WERCKER_SOURCE_DIR}" ${WERCKER_HUGO_BUILD_FLAGS}
 
-echo "Copy everything to $WERCKER_OUTPUT_DIR"
-cp -r * $WERCKER_OUTPUT_DIR
+#echo "Copy everything to $WERCKER_OUTPUT_DIR"
+#cp -r * $WERCKER_OUTPUT_DIR
