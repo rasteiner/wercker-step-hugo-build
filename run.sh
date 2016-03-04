@@ -99,7 +99,7 @@ install_pygments()
     if ! command_exists pygmentize; then
         update_sources
         if command_exists apt-get; then
-            apt_install python3-pygments
+            apt_install python-pygments
         elif command_exists pacman; then
             pacman_install python-pygments
         else
